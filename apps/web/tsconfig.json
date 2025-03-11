@@ -3,7 +3,10 @@
   "compilerOptions": {
     "plugins": [{ "name": "next" }],
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "@repo/database": ["../../packages/database/src"],
+      "@repo/database/*": ["../../packages/database/src/*"],
+      "@repo/database/generated/*": ["../../packages/database/generated/*"]
     }
   },
   "include": [
